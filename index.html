@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th colspan="4"><input id="input" placeholder="Enter function"></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td colspan="3">
+            <button onclick="document.getElementById('input').value=''">Clear</button>
+        </td>
+        <td>
+            <button onclick="add('+')">+</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="add('7')">7</button>
+        </td>
+        <td>
+            <button onclick="add('8')">8</button>
+        </td>
+        <td>
+            <button onclick="add('9')">9</button>
+        </td>
+        <td>
+            <button onclick="add('-')">-</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="add('4')">4</button>
+        </td>
+        <td>
+            <button onclick="add('5')">5</button>
+        </td>
+        <td>
+            <button onclick="add('6')">6</button>
+        </td>
+        <td>
+            <button onclick="add('/')">/</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="add('1')">1</button>
+        </td>
+        <td>
+            <button onclick="add('2')">2</button>
+        </td>
+        <td>
+            <button onclick="add('3')">3</button>
+        </td>
+        <td>
+            <button onclick="add('*')">*</button>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <button onclick="add('0')">0</button>
+        </td>
+        <td>
+            <button onclick="add('.')">.</button>
+        </td>
+        <td>
+            <button onclick="calculate()">=</button>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+<script src="js/main.js"></script>
+</html>

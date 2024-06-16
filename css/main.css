@@ -1,0 +1,21 @@
+button {
+    background-color: #0c5afd;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 0.5vw 1.3vw;
+    font-size: 2vw;
+}
+
+table {
+    width: 40vw;
+    margin: 15vw 30vw;
+}
+
+input {
+    width: 88%;
+    font-size: 2vw;
+    border-radius: 1vw;
+    padding: 1vw 2.3vw;
+}
